@@ -1,0 +1,91 @@
+body{
+    background-image: url("background.jpg");
+    
+    
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    /* background-color: blueviolet; */
+}
+.nav{
+    width: 100%;
+    height: 75px;
+    /* background-color: white; */
+    
+}
+.logo{
+    width: 12%;
+    height: 75px;
+    /* background-color: aqua; */
+    display: inline-block;
+}
+.logo img{
+    width:55%;
+    height:70px ;
+    border: 1px solid black;
+    border-radius: 60px;
+}
+.nav_bar{
+    width: 80%;
+    height: 75px;
+    background-color: transparent;
+    display: inline-block;
+    margin-left: 220px;
+    position: absolute;
+}
+.nav_bar input{
+    display: inline-block;
+}
+.nav_bar ul li{
+    display: inline-block;
+    padding: 20px;
+    font-size: 30px;
+     
+}
+.nav_bar ul li a{
+    text-decoration: none;
+    color: blueviolet;
+}
+.nav_bar ul li a:hover{
+    text-decoration: underline;
+    background-color: brown;
+}
+.header{
+    width: 35%;
+    height: 25vh;
+    background-color: white;
+    margin-top: 100px;
+    display: inline-block;
+}
+.header img{
+    width: 100%;
+    height: 25vh;
+}
+.header2{
+    width: 35%;
+    height: 25vh;
+    background-color: white;
+    margin-top: 100px;
+    display: inline-block;
+    margin-left: 400px;
+}
+.header3{
+    width: 100%;
+    height: 25vh;
+    background-color: white;
+    margin-top: 20px;
+}
+.header2 img{
+    width: 100%;
+    height: 25vh;
+}
+.header3 h1{
+   padding:40px;
+   margin-left: 200px;
+}
